@@ -1,0 +1,15 @@
+﻿<Window x:Class="JumpNRun.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JumpNRun"
+        mc:Ignorable="d"
+        Title="JumpNRun" Height="450" Width="450" ResizeMode="NoResize">
+    <Grid>
+        <Frame x:Name="Menue" NavigationUIVisibility="Hidden" Background="#FF565B56"/>
+        <Image x:Name="playerImage" Source="Resources/ImagesForAnimation/Player/Idle/idle1.png" Margin="-83,0,70,0"/>
+        <Button Content="Play" Click="ButtonOneClick" HorizontalAlignment="Left" Height="45" Margin="284,91,0,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="148" FontSize="16" FontFamily="Bauhaus 93" Background="Black"/>
+        <Button Content="Controls" Click="ButtonTwoClick" HorizontalAlignment="Left" Height="45" Margin="284,192,0,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="148" FontFamily="Bauhaus 93" FontSize="16" Background="Black"/>
+    </Grid>
+</Window>
